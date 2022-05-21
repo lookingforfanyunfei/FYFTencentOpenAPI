@@ -29,24 +29,13 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '9.0'
-    
-    #  s.source_files = 'FYFTencentOpenAPI/Classes/**/*'
-    
+        
     s.frameworks = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'WebKit'
     s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
     
     s.vendored_frameworks = 'FYFTencentOpenAPI/Framework/TencentOpenAPI.framework'
     s.source_files = 'FYFTencentOpenAPI/Framework/TencentOpenAPI.framework/Headers/*'
     s.resource = 'FYFTencentOpenAPI/Assets/TencentOpenApi_IOS_Bundle.bundle'
-    
-    #  s.pod_target_xcconfig = {
-    #    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    #    'SWIFT_INCLUDE_PATHS' => '$(PODS_TARGET_SRCROOT)/TencentOpenAPI.framework/Headers/'
-    #  }
-    #  sc.user_target_xcconfig = {
-    #    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    #
-    #  }
     
     # s.resource_bundles = {
     #   'FYFTencentOpenAPI' => ['FYFTencentOpenAPI/Assets/*.png']
