@@ -1,0 +1,6 @@
+framework module FYFTencentOpenAPI {
+  umbrella header "FYFTencentOpenAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

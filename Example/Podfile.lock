@@ -1,0 +1,16 @@
+PODS:
+  - FYFTencentOpenAPI (0.1.0)
+
+DEPENDENCIES:
+  - FYFTencentOpenAPI (from `../`)
+
+EXTERNAL SOURCES:
+  FYFTencentOpenAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFTencentOpenAPI: 157a0c2ba52636ab4dfdd31a6101259f0cf4dab8
+
+PODFILE CHECKSUM: d03b3487706696717613aa467815abe1d59569ab
+
+COCOAPODS: 1.11.3

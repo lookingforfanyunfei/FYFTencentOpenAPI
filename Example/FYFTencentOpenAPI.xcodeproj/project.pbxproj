@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		096A1AFE3F86C3FBAEA5D1C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		096A1AFE3F86C3FBAEA5D1C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0F405DC071E92FDC132D6A52 /* Pods-FYFTencentOpenAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFTencentOpenAPI_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFTencentOpenAPI_Tests/Pods-FYFTencentOpenAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -28,9 +28,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		612A33FA4F415D04303F4837 /* Pods-FYFTencentOpenAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFTencentOpenAPI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFTencentOpenAPI_Tests/Pods-FYFTencentOpenAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6E64D8A67048A22B218AF8EA /* FYFTencentOpenAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFTencentOpenAPI.podspec; path = ../FYFTencentOpenAPI.podspec; sourceTree = "<group>"; };
+		6E64D8A67048A22B218AF8EA /* FYFTencentOpenAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFTencentOpenAPI.podspec; path = ../FYFTencentOpenAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1691B423B25C0AB2820FB22 /* Pods_FYFTencentOpenAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFTencentOpenAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9BEAD5D4F0BAB3F7BE1F8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE9BEAD5D4F0BAB3F7BE1F8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				612A33FA4F415D04303F4837 /* Pods-FYFTencentOpenAPI_Tests.debug.xcconfig */,
 				0F405DC071E92FDC132D6A52 /* Pods-FYFTencentOpenAPI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
