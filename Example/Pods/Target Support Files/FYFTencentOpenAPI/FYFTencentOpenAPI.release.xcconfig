@@ -1,6 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/FYFTencentOpenAPI
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../FYFTencentOpenAPI/Framework"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "QQApiInterface.h"
+#import "QQApiInterfaceObject.h"
+#import "sdkdef.h"
+#import "TencentOAuth.h"
+#import "TencentOpenApiUmbrellaHeader.h"
 
 FOUNDATION_EXPORT double FYFTencentOpenAPIVersionNumber;
 FOUNDATION_EXPORT const unsigned char FYFTencentOpenAPIVersionString[];
