@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FYFTencentOpenAPI_Tests' do
+  pod 'FYFTencentOpenAPI', :path => '../'
+  
+  
+end
