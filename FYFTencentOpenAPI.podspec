@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
     s.name             = 'FYFTencentOpenAPI'
-    s.version          = '0.1.1'
-    s.summary          = 'A short description of FYFTencentOpenAPI.'
+    s.version          = '0.1.2'
+    s.summary          = '基于腾讯QQ官方开放的API'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,6 +29,14 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '9.0'
+    
+    # 组件支持的架构，并且module化，为后期组件混编做准备，也为了规范化管理
+    s.pod_target_xcconfig = {
+      'VALID_ARCHS' => 'arm64e arm64 armv7 armv7s x86_64',
+      'DEFINES_MODULE' => 'YES'
+    }
+    # 组件支持swift混编的版本
+    s.swift_versions = ['5.1', '5.2','5.3', '5.4', '5.5']
         
     s.frameworks = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'WebKit'
     s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
